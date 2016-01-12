@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv sh
+
+cd /app
+bundle exec unicorn -c lib/unicorn.rb
+

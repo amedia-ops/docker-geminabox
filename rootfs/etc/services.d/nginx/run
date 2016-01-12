@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv sh
+
+mkdir -p /tmp/nginx
+mkdir -p /app/logs
+exec /usr/sbin/nginx -c /etc/nginx/nginx.conf
+
