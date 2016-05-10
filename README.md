@@ -1,4 +1,4 @@
-Geminabox docker image running on a minimal Alpine Linux, ruby 2.2 + nginx and s6 as a process manager.
+Geminabox docker image running on a minimal Ubuntu 14.04, ruby 2.2 + nginx and s6 as a process manager.
 This image is using basic auth with a single user
 
 Geminabox docker image
