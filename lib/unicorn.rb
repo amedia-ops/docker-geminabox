@@ -10,5 +10,5 @@ timeout 30
 listen 'unix:/var/run/unicorn.sock', :backlog => 64
 
 pid '/var/run/unicorn.pid'
-stderr_path '/var/log/unicorn/error.log'
-stdout_path '/var/log/unicorn/output.log'
+stderr_path '/dev/stderr'
+stdout_path '/dev/stdout'

@@ -1,4 +1,4 @@
-FROM quay.io/trunk/ruby-base:1.4
+FROM quay.io/trunk/ruby-base:1.8
 WORKDIR /app
 
 ENV GEMINABOX_DATA "/data"
